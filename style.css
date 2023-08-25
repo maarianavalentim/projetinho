@@ -1,0 +1,110 @@
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolhali a.selecionado {
+    opacity: 1;
+}
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a{
+    opacity: 0.2;
+}
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+    align-items: center;
+    margin: 60px;
+}
+
+#principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #e74c3c;
+}
+h2{
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+#placar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#jogador, #computador {
+    text-align: center;
+}
+
+#jogadorNome, #computadorNome {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#jogadorPontos, #computadorPontos {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+}
+
+img {
+max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#versus {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#mensagem {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
